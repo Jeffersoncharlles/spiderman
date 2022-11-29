@@ -6,3 +6,12 @@
 body{
   @apply bg-gray-1100 w-full h-screen;
 }
+
+// img,svg{
+//   display: block;
+//   width: 100%;
+// }
+
+p{
+  @apply text-base text-gray-700 leading-4  ;
+}

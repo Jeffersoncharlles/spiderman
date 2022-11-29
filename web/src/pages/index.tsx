@@ -5,6 +5,10 @@ import { Header } from '../Components/Header'
 import {menuHeader} from './../utils/helpers'
 import Link from 'next/link'
 import { Button } from '../Components/Button'
+import PSLogo from '../assets/ps.svg'
+import marvelLogo from '../assets/marvel.svg'
+import SpiderMan from '../assets/spider-man-person.png'
+import Image from 'next/image'
 
 interface IPropsHome {
 
@@ -21,11 +25,12 @@ export default function Home({ }: IPropsHome) {
       <Header menu={menuHeader} />
       <main className={styles.main}>
         <section className={styles.container1}>
-          <p></p>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Saepe, magnam aliquid? Quo nesciunt minima voluptatem eum?
-            Molestiae, quia asperiores.
-            Quisquam, odio qui molestiae illum dolorem ipsum. Aspernatur ea maiores magni.
+          <p>
+            <img src="/spider-man-name-2.png" alt="Spider-man miles Morales logo escrita isso" />
+          </p>
+          <p>O adolescente Miles Morales está se adaptando a um novo lar enquanto segue os passos do seu mentor, Peter Parker,
+            como um novo Homem-Aranha. Mas quando uma violenta disputa de forças ameaça destruir seu novo lar,
+            Miles precisa reconhecer e assumir o título de Homem-Aranha..
           </p>
           <p>
             <Button link='/' >
@@ -38,12 +43,13 @@ export default function Home({ }: IPropsHome) {
           </p>
 
           <p>
-
+            <Image src={PSLogo} alt="logo da PlayStation" />
+            <Image src={marvelLogo} alt="logo da marvel" />
           </p>
 
         </section>
         <section className={styles.container1}>
-
+          <Image src={SpiderMan} alt="Spider-man personagem com a mao elétrica e jogando a teia" />
         </section>
       </main>
       <footer>

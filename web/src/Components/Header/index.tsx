@@ -2,7 +2,6 @@ import Link from 'next/link'
 import styles from './styles.module.scss'
 import { YoutubeLogo, InstagramLogo, FacebookLogo, TwitterLogo } from 'phosphor-react'
 import Logo from '../../assets/Logo'
-import Image from 'next/image'
 
 interface Props {
   menu: {
@@ -31,7 +30,7 @@ export const Header = ({ menu}:Props) => {
           </div>
           <div className={styles.container_nav_socials}>
             <Link href="/" >
-                <FacebookLogo size={24} />
+                <FacebookLogo size={24}  />
             </Link>
 
             <Link href="/" >
