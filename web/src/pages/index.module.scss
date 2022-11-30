@@ -4,7 +4,8 @@
 
 
   @screen lg{
-    @apply text-white max-w-[1440px] my-0 mx-auto py-9 px-4 flex flex-row items-center h-[80vh] overflow-hidden;
+    @apply text-white max-w-[1440px] my-0 mx-auto py-9 px-4 flex flex-row items-center h-[80vh] ;
+    overflow: hidden;
   }
 }
 
