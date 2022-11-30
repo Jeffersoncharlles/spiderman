@@ -10,10 +10,7 @@ import Image from 'next/image'
 import { BgVideo } from '../Components/BgVideo'
 import VanillaTilt from 'vanilla-tilt';
 import { useEffect, useLayoutEffect, useRef } from 'react'
-import { gsap,TimelineMax } from "gsap";
-import { Loading } from '../Components/Loading'
-
-
+import { TimelineMax } from "gsap";
 
 
 interface IPropsHome {}
