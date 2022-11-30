@@ -4,13 +4,14 @@ import { YoutubeLogo, InstagramLogo, FacebookLogo, TwitterLogo } from 'phosphor-
 import Logo from '../../assets/Logo'
 
 interface Props {
+  ref?: React.Ref<HTMLDivElement>
   menu: {
     title: string
     linkUrl:string
   }[]
 }
 
-export const Header = ({ menu}:Props) => {
+export const Header = ({ menu,ref}:Props) => {
 
     return(
         <header className={styles.container}>

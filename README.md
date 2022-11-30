@@ -46,6 +46,8 @@ This Front-End project was developed using the following technologies:
 -   [Sass][sass]
 -   [Tailwind css][tailwindcss]
 -   [Phosphor Icons][phosphoricons]
+-   [Vanilla Tilt][vanillatilt]
+-   [GreenSock][gsap]
 
 
 
@@ -61,6 +63,8 @@ Feel free to bring new features or fix problems, it will be a pleasure! 💜
 
 [typescript]: https://www.typescriptlang.org/
 [tailwindcss]: https://tailwindcss.com/
+[vanillatilt]: https://micku7zu.github.io/vanilla-tilt.js/
+[gsap]: https://greensock.com/
 [nextjs]: https://nextjs.org/
 [osanimation]: https://michalsnik.github.io/aos/
 [swiperjs]: https://swiperjs.com/react

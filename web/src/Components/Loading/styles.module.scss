@@ -1,0 +1,26 @@
+.container{
+  @apply w-full h-full absolute top-0 left-0 z-50 flex justify-center items-center overflow-hidden;
+  background: linear-gradient(225deg,#E42B2F 0%, #AB0E12 100%);
+
+  .container_logo_spiderman{
+    fill: transparent;
+
+    animation: spider 12s ease infinite alternate;
+
+
+    @keyframes spider {
+      0%{
+        stroke-width:0 ;
+        // stroke-dasharray: ;
+        fill: transparent;
+      }
+      25%{
+        stroke-width: 1;
+      }
+      60%,100%{
+        stroke-width: 0.3;
+        fill: #fff;
+      }
+    }
+  }
+}
