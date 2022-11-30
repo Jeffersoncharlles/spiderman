@@ -11,10 +11,11 @@
   <a href="#key-license">License</a>
 </p>
 
-<!-- <h1 align='center'>
-  <img src='./screen/chrome_b4BLWvvnY9.gif' width="480">
-  <img src='./screen/mXhIcTA3Qz.jpg'  height="720">
-</h1> -->
+<h1 align='center'>
+  <video  autoPlay muted loop>
+    <source src="./screen/spider-man.mp4" type='video/mp4' />
+  </video>
+</h1>
 
 ## Getting Started
 
