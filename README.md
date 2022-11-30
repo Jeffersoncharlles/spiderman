@@ -11,9 +11,9 @@
   <a href="#key-license">License</a>
 </p>
 
-<h1 align='center'>
-  <video  autoPlay muted loop src="./screen/spider-man.mp4" type='video/mp4' width=720></video>
-</h1>
+
+  <video  autoPlay muted loop src="./screen/spider-man.mp4" type='video/mp4' width=720 />
+
 
 ## Getting Started
 
