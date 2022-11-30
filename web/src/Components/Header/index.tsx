@@ -45,6 +45,7 @@ export const Header = ({ menu}:Props) => {
               <TwitterLogo size={24} />
             </Link>
           </div>
+          <span className={styles.container_nav_mobile}></span>
           </nav>
         </header>
     );

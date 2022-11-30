@@ -1,5 +1,49 @@
+.container{
+  @apply flex-col my-0 mx-auto py-9 px-4 flex flex-row items-center h-[80vh] text-white ;
+  overflow: none;
 
 
-.main{
- @apply text-white;
+  @screen lg{
+    @apply text-white max-w-[1440px] my-0 mx-auto py-9 px-4 flex flex-row items-center h-[80vh] overflow-hidden;
+  }
+}
+
+.content_1{
+
+  @apply max-w-xl flex flex-col items-start;
+
+  >p{
+
+    @apply my-8 ;
+  }
+
+  .buttons{
+   >a{
+    @apply mr-4 ;
+   }
+  }
+
+  .dev{
+
+    @apply mt-4 flex w-auto items-center ;
+    img{
+      width: 3rem;
+      height: 3rem;
+    }
+    >img{
+      @apply mr-4;
+    }
+  }
+}
+
+.content_2{
+
+  .spider{
+    @apply  w-full;
+
+    @screen lg{
+      @apply translate-x-[-120px] scale-110;
+    }
+  }
+
 }
