@@ -10,7 +10,7 @@ import Image from 'next/image'
 import { BgVideo } from '../Components/BgVideo'
 import VanillaTilt from 'vanilla-tilt';
 import { useEffect, useLayoutEffect, useRef } from 'react'
-import { TimelineMax } from "gsap";
+import { gsap } from "gsap";
 
 
 interface IPropsHome {}
@@ -30,12 +30,9 @@ export default function Home({ }: IPropsHome) {
   }
 
   useLayoutEffect(() => {
-    const time = new TimelineMax();
-    time.fromTo(comp?.current, 1, { width: '100%' },
+
+    gsap.fromTo(comp?.current, 1, { width: '100%' },
       { width: '0%',delay:5 ,ease: 'easeInOut'}
-    ).fromTo(compVideo?.current,
-      2, { width: '0%', opacity:0 },
-      { width: '100%', opacity: 1, ease: 'easeInOut' }, '-=1'
     )
 
   },[])
