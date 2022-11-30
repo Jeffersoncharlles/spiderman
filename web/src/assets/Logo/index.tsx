@@ -1,7 +1,7 @@
 import * as React from "react"
 import { SVGProps, Ref, forwardRef, memo } from "react"
 
-const SvgComponent = (
+const Icon = (
   props: SVGProps<SVGSVGElement>,
   ref: Ref<SVGSVGElement>
 ) => (
@@ -26,6 +26,5 @@ const SvgComponent = (
   </svg>
 )
 
-const ForwardRef = forwardRef(SvgComponent)
-const Memo = memo(ForwardRef)
-export default Memo
+
+export default Icon
