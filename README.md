@@ -12,7 +12,7 @@
 </p>
 
 
-  <video  autoPlay muted loop src="./screen/spider-man.mp4" type='video/mp4' width=720 />
+  <video  autoPlay muted loop src="./screen/spider-man.mp4"  width=720 ></video>
 
 
 ## Getting Started
